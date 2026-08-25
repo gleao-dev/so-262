@@ -9,7 +9,7 @@ public class Factory
 {
 	public static void main(String args[]) {
 		Buffer server = new BoundedBuffer();
-    System.out.println("\n Joao Guilherme dos Santos Leao\n");
+    	System.out.println("\n Joao Guilherme dos Santos Leao\n");
 
       		// now create the producer and consumer threads
       		Thread producerThread = new Thread(new Producer(server));
